@@ -1,0 +1,28 @@
+{
+    "name": "expressjs-first-app",
+    "version": "1.0.0",
+    "description": "Express App\u001b[D\u001b[D\u001b[D\u001b[Djs app",
+    "main": "express.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js",
+        "start-server": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kipkuruibarnaba/expressjs-first-app.git"
+    },
+    "author": "Barnaba",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kipkuruibarnaba/expressjs-first-app/issues"
+    },
+    "homepage": "https://github.com/kipkuruibarnaba/expressjs-first-app#readme",
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2"
+    }
+}
